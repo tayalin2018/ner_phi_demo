@@ -1,0 +1,10 @@
+labels: [MRN, INSURANCE_ID, ICD_CODE, CPT_CODE, DOCKET_NO, CASE_NO, PRESCRIPTION_ID]
+tagging: IOB2
+redaction_policy:
+  MRN: pseudonym_per_doc
+  INSURANCE_ID: pseudonym_per_doc
+  ICD_CODE: mask_category
+  CPT_CODE: mask_category
+  DOCKET_NO: pseudonym_per_doc
+  CASE_NO: pseudonym_per_doc
+  PRESCRIPTION_ID: mask_full

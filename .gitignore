@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+mlruns/
+outputs/
+data/*.jsonl
+server.log
+*.ipynb_checkpoints/

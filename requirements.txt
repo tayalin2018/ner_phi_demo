@@ -1,0 +1,15 @@
+# core training & evaluation
+torch
+transformers>=4.41.0
+datasets>=2.19.0
+seqeval>=1.2.2
+numpy
+regex
+
+# serving
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+
+# testing
+pytest>=8.0.0
